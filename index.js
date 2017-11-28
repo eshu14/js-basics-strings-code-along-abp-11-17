@@ -2,4 +2,4 @@
 let currentUser="Eshu ";
 let welcomeMessage="Welcome to Flatbook, "+currentUser +"!";
 let excitedWelcomeMessage="WELCOME TO FLATBOOK, "+currentUser.toUpperCase()+"!";
-let shortGreeting="Welcome, "+currentUser.chatAt(0)+"!";
+let shortGreeting="Welcome, "+currentUser.slice(1)+"!";
